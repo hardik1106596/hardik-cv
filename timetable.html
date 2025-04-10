@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Timetable - B.Tech IT Sem 2</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 20px;
+      background: #f3f4f6;
+    }
+
+    h1, h2 {
+      text-align: center;
+      margin: 0;
+    }
+
+    h1 {
+      font-size: 28px;
+      color: #1e3a8a;
+    }
+
+    h2 {
+      font-size: 20px;
+      color: #2563eb;
+      margin: 5px 0;
+    }
+
+    table {
+      border-collapse: collapse;
+      margin: 30px auto;
+      width: 95%;
+      max-width: 1200px;
+      background-color: #ffffff;
+      box-shadow: 0 6px 20px rgba(0, 0, 0, 0.05);
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    th, td {
+      border: 1px solid #d1d5db;
+      padding: 16px;
+      text-align: center;
+      font-size: 14px;
+    }
+
+    th {
+      background-color: #1e3a8a;
+      color: white;
+      font-weight: bold;
+    }
+
+    td {
+      background-color: #f9fafb;
+    }
+
+    tr:nth-child(even) td {
+      background-color: #f3f4f6;
+    }
+
+    td[colspan] {
+      background-color: #c7d2fe;
+      font-weight: 600;
+    }
+
+    td[rowspan] {
+      background-color: #fde68a;
+      font-weight: bold;
+    }
+
+    td b {
+      color: #1e3a8a;
+    }
+
+    @media (max-width: 768px) {
+      table, th, td {
+        font-size: 12px;
+        padding: 8px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <h1>DHARMSINH DESAI UNIVERSITY, NADIAD</h1>
+  <h2>FACULTY OF TECHNOLOGY</h2>
+  <h2>TIME TABLE : B.TECH. SEM-2 (IT-F)</h2>
+
+    <nav>
+        <ul>
+	    <li><a href="main.html">main</a></li>
+		
+        </ul>
+    </nav>
+
+  <table>
+    <tr>
+      <th>Day/Time</th>
+      <th>10:45<br>TO<br>11:45</th>
+      <th>11:45<br>TO<br>12:40</th>
+      <th>12:45<br>TO<br>1:40</th>
+      <th>1:40<br>TO<br>2:30</th>
+      <th>2:30<br>TO<br>3:25</th>
+      <th>3:25<br>TO<br>4:25</th>
+      <th>4:30<br>TO<br>5:30</th>
+    </tr>
+
+    <tr>
+      <td><b>Monday</b></td>
+      <td colspan="3">PPS (LAB)</td>
+      <td rowspan="5"><b>LUNCH</b></td>
+      <td>Physics (L)</td>
+      <td>Maths (L)</td>
+      <td>PPS (L)</td>
+    </tr>
+
+    <tr>
+      <td><b>Tuesday</b></td>
+      <td colspan="2">Physics (LAB)</td>
+      <td>Physics (T)</td>
+      <td>Physics (L)</td>
+      <td>English (L)</td>
+      <td>PPS (L)</td>
+    </tr>
+
+    <tr>
+      <td><b>Wednesday</b></td>
+      <td colspan="2">English (LAB)</td>
+      <td>Maths (T)</td>
+      <td>Maths (L)</td>
+      <td>EVS (L)</td>
+      <td>EVS (L)</td>
+    </tr>
+
+    <tr>
+      <td><b>Thursday</b></td>
+      <td>-</td>
+      <td colspan="2">HW (LAB)</td>
+      <td>Maths (L)</td>
+      <td>PPS (L)</td>
+      <td>Physics (L)</td>
+    </tr>
+
+    <tr>
+      <td><b>Friday</b></td>
+      <td>-</td>
+      <td colspan="2">HW (LAB)</td>
+      <td>English (L)</td>
+      <td>PPS (L)</td>
+      <td>-</td>
+    </tr>
+  </table>
+
+</body>
+</html>
